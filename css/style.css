@@ -2,24 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  body {
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-  }
-  header {
+}
+
+header {
     position: fixed;
     width: 100%;
     top: 0px;
     background: #FFFFFF;
-  }
-  a {
+}
+
+a {
     color: rgb(18, 18, 18);
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 600;
-  }
-  .nav-container {
+}
+
+.nav-container {
     display: flex;
     justify-content: space-between;
     flex: 1;
@@ -27,39 +31,46 @@
     margin: 0 30px 0 20px;
     height: 40px;
     margin-top: 3px;
-  }
-  .left-container {
+}
+
+.left-container {
     display: flex;
     justify-content: flex-start;
-  }
-  .right-container {
+}
+
+.right-container {
     display: flex;
     justify-content: flex-start;
-  }
-  .nylogo {
+}
+
+.nylogo {
     width: 250px;
-  }
-  .icon {
+}
+
+.icon {
     margin: 10px;
     display: flex;
     align-items: center;
-  }
-  .space {
+}
+
+.space {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     letter-spacing: 0.7px;
     line-height: 19px;
     font-size: 0.8em;
     font-weight: 700;
-  }
-  .subscribe a {
+}
+
+.subscribe a {
     font-family: nyt-franklin;
     font-size: 0.875rem;
     font-weight: 600;
     opacity: 1;
     transition: opacity 0.7s ease-in-out 0s;
     text-decoration: underline;
-  }
-  .button {
+}
+
+.button {
     text-align: center;
     color: rgb(18, 18, 18);
     background-color: rgb(18, 18, 18);
@@ -72,71 +83,102 @@
     border-radius: 3px;
     margin-right: 1px 0px 0px;
     padding: 5px 10px 5px 10px;
-  }
-  .fas:hover {
+}
+
+.fas:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
-  }
-  .fa:hover {
+}
+
+.fa:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
-  }
-  .space:hover {
-      text-decoration: underline;
-  }
-  #search-form {
+}
+
+.space:hover {
+    text-decoration: underline;
+}
+
+#search-form {
     display: none;
-  }
-  .space-section{
-      margin: 0 auto;
-      width: 75%;
-      margin-top: 100px;
-      padding-bottom: 20px;
-  }
-  .space-heading {
+}
+
+.space-section {
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.space-heading {
     color: #121212;
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-    font-weight: 700;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-weight: 800;
     font-style: italic;
-    margin: 20px 50% 20px 20%;
+    margin: 100px 50% 20px 20%;
     width: calc(100% - 40px);
     max-width: 600px;
-    text-align: center;
-  }
-  .h-below {
+    text-align: left;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+/* .h-below {
       text-align: left;
-  }
-  .alan-pict {
-      width: 100%;
-  }
-  .section-paragraph {
-      width: 80%;
-      font-size: 0.9375rem;
-      line-height: 1.25rem;
-      margin-right: 7px;
+  } */
+.alan-pict {
+    width: 100%;
+}
+
+.section-paragraph {
+    width: 80%;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    margin-right: 7px;
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  }
-  @media only screen and (max-width: 990px) {
-    
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    max-width: 753px;
+}
+
+span {
+    font-size: 0.85rem;
+}
+
+@media only screen and (max-width: 990px) {
+
     .space {
         display: none;
     }
+
     #search-fa {
         display: none;
     }
-  }
-  @media only screen and (max-width: 741px) {
-    
+}
+
+@media only screen and (max-width: 741px) {
+
     .subscribe {
         display: none;
     }
+
     .button {
         background-color: #FFF;
         color: black;
         border: none;
     }
-  }
- 
+}
+.author {
+    margin:  20px 30% 20px 30%;
+}
+.social-section {
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin:  20px 30% 20px 30%;
+}
+article {
+    margin:  20px 30% 20px 30%;
+    font: 20px;
+    font-family: nyt-imperial, Georgia, 'Times New Roman', Times, serif;  
+}
