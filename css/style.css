@@ -7,6 +7,12 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
   }
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #FFFFFF;
+  }
   a {
     color: rgb(18, 18, 18);
     text-decoration: none;
@@ -67,7 +73,6 @@
     margin-right: 1px 0px 0px;
     padding: 5px 10px 5px 10px;
   }
-  
   .fas:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
@@ -83,6 +88,16 @@
   }
   #search-form {
     display: none;
+  }
+  .space-section{
+      margin: 0 auto;
+      width: 60%;
+      height: 2000px;
+      border: 1px solid black;
+      margin-top: 50px;
+  }
+  .space-heading {
+      text-align: center;
   }
   @media only screen and (max-width: 990px) {
     
