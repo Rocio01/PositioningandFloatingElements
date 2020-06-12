@@ -1,3 +1,17 @@
+/* css reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -145,7 +159,81 @@ a {
 span {
     font-size: 0.85rem;
 }
+.author {
+    margin:  20px 30% 20px 30%;
+}
+.author > a {
+    font-size: 0.9em;
+}
+.social > p, .main-w > p {
+    font-size: 0.75em;
+}
+.social > a {
+    background-color: rgb(245, 239, 239);
+    padding: 6px;
+    border-radius: 50%;
 
+}
+.main-article {
+    width: 100%;
+    margin-left: 0;
+}
+.main-w-sidebar {
+    width: 70%;
+    margin-left: 30%;
+}
+.main-w {
+    float: left;
+    width: 55%;
+}
+.main-sidebar {
+    float: right;
+    width: 35%;
+}
+.clear {
+    clear: both;
+}
+.editor-heading {
+    margin-top: 150px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.editor-pics {
+    display: flex;
+    margin: 20px 5px ;
+}
+.editor-pics > img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.social-section {
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin:  20px 30% 20px 30%;
+}
+article {
+    margin:  20px 30% 20px 30%;
+    font: 20px;
+    font-family: nyt-imperial, Georgia, 'Times New Roman', Times, serif;  
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+article > p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
 @media only screen and (max-width: 990px) {
 
     .space {
@@ -168,17 +256,4 @@ span {
         color: black;
         border: none;
     }
-}
-.author {
-    margin:  20px 30% 20px 30%;
-}
-.social-section {
-    display: grid;
-    grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin:  20px 30% 20px 30%;
-}
-article {
-    margin:  20px 30% 20px 30%;
-    font: 20px;
-    font-family: nyt-imperial, Georgia, 'Times New Roman', Times, serif;  
 }
