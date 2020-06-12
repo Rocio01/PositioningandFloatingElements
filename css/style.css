@@ -20,6 +20,7 @@
     align-items: center;
     margin: 0 30px 0 20px;
     height: 40px;
+    margin-top: 3px;
   }
   .left-container {
     display: flex;
@@ -28,9 +29,6 @@
   .right-container {
     display: flex;
     justify-content: flex-start;
-  }
-  img {
-    width: 20px;
   }
   .nylogo {
     width: 250px;
@@ -55,7 +53,7 @@
     transition: opacity 0.7s ease-in-out 0s;
     text-decoration: underline;
   }
-  button {
+  .button {
     text-align: center;
     color: rgb(18, 18, 18);
     background-color: rgb(18, 18, 18);
@@ -69,12 +67,7 @@
     margin-right: 1px 0px 0px;
     padding: 5px 10px 5px 10px;
   }
-  .search {
-    width: 15px;
-  }
-  .hamburguer {
-    width: 15px;
-  }
+  
   .fas:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
@@ -105,7 +98,7 @@
     .subscribe {
         display: none;
     }
-    button {
+    .button {
         background-color: #FFF;
         color: black;
         border: none;
