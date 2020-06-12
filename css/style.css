@@ -3,33 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+/* test only */
+nav {
+    border: 1px solid blue;
+}
+
 a {
-    color: black;
+    color: rgb(18, 18, 18);
     text-decoration: none;
+    font-size: 1.20em;
+    font-weight: 600;
 }
  .nav-container{
      display: flex;
      justify-content: space-between;
      flex: 1;
      align-items: center;
+     margin: 0 30px 0 20px;
+     height: 40px;
  }
  .left-container {
      display: flex;
-     justify-content: center;
+     justify-content: flex-start;
     
  }
 
  .right-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     
+}
+img {
+    width: 20px;
+}
+.nylogo {
+    width: 250px;
 }
 
 .icon {
     margin: 10px;
 }
+.space {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+    font-size: 0.75em;
+    font-weight: 700;
+}
+.subscribe a {
+    font-family: nyt-franklin;
+    font-size: 0.875rem;
+    font-weight: 600;
+    opacity: 1;
+    transition: opacity 0.7s ease-in-out 0s;
+    text-decoration: underline;
+    margin-top: 10px;
+}
 button {
     text-align: center;
-    color: black;
-    padding: 10px;
+    color: rgb(18, 18, 18);
+    background-color: rgb(18, 18, 18);
+    color: #FFFFFF;
+    font-size: 1.0em;
+    height: 32px;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    border-color: 1px solid rgb(18, 18, 18);
+    border-radius: 3px;
+    margin-right: 1px 0px 0px;
+    padding: 5px 10px 5px 10px;
+
 }
