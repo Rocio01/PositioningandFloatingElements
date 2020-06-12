@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>New York Times Magazine</title>
-  <link rel="stylesheet" href="css\style.css" type="text/css">
-  </head>
-  <body>
-      <header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>New York Times Magazine</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <script src="https://kit.fontawesome.com/cbdf2b0f0e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
         <nav class="nav-container">
             <div class="left-container">
-                <div class="icon "><a href="/"> <img class="hamburguer" src="images\hamburguer.png" alt="y"> </a></div>
-                <div class="icon "><a href="/"> <img class="search" src="images\search.png" alt="y"> </a></div>
-                <div class="icon space"><a href="/"> <p> SPACE & COSMOS </p> </a></div>            
+                <div class="icon">
+                    <a href="#"> <i class="fa fa-bars" aria-hidden="true"></i> </a>
+                </div>
+                <div class="icon" id="search-fa">
+                    <a href="#"> <i class="fas fa-search"></i></a>
+                </div>
+                <div class="icon space">
+                    <a href="#">SPACE & COSMOS</a>
+                    <form action="" method="post" id="search-form">
+                      <input type="text" class="search" id="search">
+                    </form>
+                </div>
             </div>
-            <div class="icon NY"><a href="/"> <img class="nylogo" src="images\NYTlogo.svg" alt="y"> </a></div>
+            <div class="icon NY">
+                <a href="#"> <img class="nylogo" src="images\NYTlogo.svg" alt="y" /> </a>
+            </div>
             <div class="right-container">
-              <div class="icon  subscribe"><a href="/">Subscribe now</a></div> 
-              <button class="icon" type="button"> Log in </button>
+                <div class="icon subscribe"><a href="/">Subscribe now</a></div>
+                <button class="icon" type="button">Log in</button>
             </div>
         </nav>
-      </header>
-      
-
-      
-      </header>
-      <main></main>
-      <aside></aside>
-  
-  </body>
+        <main></main>
+        <aside></aside>
+    </body>
 </html>
