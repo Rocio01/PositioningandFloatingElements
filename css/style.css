@@ -441,4 +441,58 @@ strong {
     }
 }
 
+.link-article {
+    text-decoration: underline;
+    color: #326891;
+    font-size: 0.9em;
+    font-weight: bold;
+    
+    
+    
+}
+.link-article:hover {
+    text-decoration: none;
+}
+
+.social-footer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.social-container {
+    display: flex;
+    
+    justify-content: space-between;
+}
+.button-comments {
+    background-color: rgb(86, 123, 149);
+    color: white;
+    display: block;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+    border-image: initial;
+    border-radius: 3px;
+    padding: 5px 0px;
+    transition: background-color 0.6s ease 0s;
+    margin-right: 15%;
+    
+}
+.social2 {
+    padding: 5px;
+    margin: 5px;
+}
+
+
 
