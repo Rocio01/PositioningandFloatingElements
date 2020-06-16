@@ -258,7 +258,9 @@ span {
 
 .main-article {
   width: 100%;
-  margin-left: 0;
+  margin-left: 0;  
+  font: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .main-w-sidebar {
@@ -311,9 +313,9 @@ span {
   margin: 20px 30% 20px 30%;
 }
 
-article {
+.article {
   margin: 20px 30% 20px 30%;
-  font: 20px;
+  font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -325,7 +327,7 @@ p {
   margin-inline-end: 0px;
 }
 
-article > p {
+.article > p {
   font-size: 1.25rem;
   line-height: 1.875rem;
   width: 100%;
@@ -665,6 +667,9 @@ ul {
 }
 .footer-list li a:hover {
   text-decoration: underline;
+}
+.left-logo img {
+    width: 150px;
 }
 .aside-footer {
   border-left: solid #666666 0.5px;
