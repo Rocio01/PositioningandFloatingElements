@@ -101,6 +101,7 @@ video {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    color: #333333;
 }
 
 header {
@@ -333,11 +334,22 @@ p {
 article>p {
     font-size: 1.25rem;
     line-height: 1.875rem;
+    width: 100%;
 }
-
+.article-footer p {
+    font-size: 0.8em;
+}
+.article-footer a {
+    font-size: 0.8em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.article-footer a:hover {
+    text-decoration: none;
+}
 .inflation {
     margin: 0 auto;
-    width: 70%;
+    width: 75%;
     font-family: nyt-cheltenham, georgia, times new roman, times, serif;
     padding-top: 50px;
 }
@@ -360,12 +372,17 @@ article>p {
 }
 
 .youtube-iframe {
-    padding: 20px 20px;
+    padding: 0;
     width: 560px;
     height: 350px;
     border: none;
     margin: 0;
-
+}
+.iframecaption {
+    color: rgb(105, 102, 102);
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
 }
 
 .figure-image {
@@ -373,12 +390,13 @@ article>p {
 }
 
 .figcaption {
-    color: #666;
+    color: rgb(105, 102, 102);
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     width: 100%;
     font-size: 0.9375rem;
     line-height: 1.25rem;
 }
+
 
 .img-inflation>img {
     width: 200px;
@@ -499,6 +517,7 @@ strong {
     padding: 5px 0px;
     transition: background-color 0.6s ease 0s;
     margin-right: 15%;
+    cursor: pointer;
 
 }
 
@@ -564,6 +583,9 @@ a > span {
 .move-up {
     margin-top: -130px;
 }
+.footer-line {
+    margin-top: -200px;
+}
 footer {
     width: 90%;
     margin: 0 auto;
@@ -574,14 +596,22 @@ footer {
 .internal-link {
     float: right;
 }
+.internal-link a {
+    font-size: 0.7em;
+    color: #666666;
+}
 .footer-nav {
     display: flex;
 }
 .footer-nav-container {
     display: flex;
-
     justify-content: space-between;
     margin-top: 5%;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #333333;
 }
 
 ul {
@@ -604,4 +634,44 @@ ul {
     line-height: 15px;
     width: 150px;
     margin: 10px;
+}
+.first h2 {
+    font-size: 0.90em ;
+    margin-bottom: 20px;
+}
+.first a {
+    font-size: 1.15em;
+    font-weight: normal;
+    line-height: 1.8em;
+}
+.first a:hover {
+    text-decoration: underline;
+}
+.subscriptions a {
+    font-size: 1.2em;
+    font-weight: 800;
+    line-height: 1.4em;
+}
+.email, .more {
+    margin-top: 15px;
+}
+.footer-list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 350px;
+}
+.footer-list li {
+    list-style: none;
+    margin: 3px;
+}
+.footer-list li a {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #666666;
+    padding: 5px;
+}
+.footer-list li a:hover {
+    text-decoration: underline;
 }
