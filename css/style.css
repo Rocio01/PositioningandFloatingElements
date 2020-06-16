@@ -87,7 +87,6 @@ video {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
     font: inherit;
     vertical-align: baseline;
 }
@@ -107,7 +106,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    top: 0px;
+    top: 0;
     background: #ffffff;
 }
 
@@ -166,16 +165,15 @@ a {
 
 .button {
     text-align: center;
-    color: rgb(18, 18, 18);
     background-color: rgb(18, 18, 18);
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 1em;
     height: 32px;
     letter-spacing: 0.01em;
     text-transform: none;
-    border-color: 1px solid rgb(18, 18, 18);
+    border-color: 1px solid #000000;
     border-radius: 3px;
-    margin-right: 1px 0px 0px;
+    margin-right: 1px 0 0;
     padding: 5px 10px 5px 10px;
 }
 
@@ -314,9 +312,6 @@ span {
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
 
@@ -349,7 +344,7 @@ p {
     padding-top: 50px;
 }
 
-.inflation>h1 {
+.inflation > h1 {
     line-height: 1.5rem;
     font-weight: 700;
     font-style: normal;
