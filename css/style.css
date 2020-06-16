@@ -256,13 +256,6 @@ span {
   border-radius: 50%;
 }
 
-.main-article {
-  width: 100%;
-  margin-left: 0;  
-  font: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 .main-w-sidebar {
   width: 70%;
   margin-left: 30%;
@@ -315,7 +308,7 @@ span {
 
 .article {
   margin: 20px 30% 20px 30%;
-  font-size: 20px;
+  font-size: 1.0em;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -327,10 +320,11 @@ p {
   margin-inline-end: 0px;
 }
 
-.article > p {
+.article > p, .main-article >p {
   font-size: 1.25rem;
   line-height: 1.875rem;
   width: 100%;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .article-footer p {
@@ -465,7 +459,6 @@ strong {
 
 .social-container {
   display: flex;
-
   justify-content: space-between;
 }
 
@@ -667,9 +660,6 @@ ul {
 }
 .footer-list li a:hover {
   text-decoration: underline;
-}
-.left-logo img {
-    width: 150px;
 }
 .aside-footer {
   border-left: solid #666666 0.5px;
