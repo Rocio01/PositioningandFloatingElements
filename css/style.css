@@ -115,6 +115,9 @@ a {
   font-size: 1.2em;
   font-weight: 600;
 }
+img {
+  cursor: pointer;
+}
 
 .nav-container {
   display: flex;
@@ -368,22 +371,35 @@ p {
   line-height: 1.4em;
   position: relative;
   top: -4px;
-  }
+}
 
 .aplications-container a {
   font-size: 11px;
-  }
+}
 
 p > a:hover {
   text-decoration: underline;
 }
 
-.footer-list li a:hover {
-    text-decoration: underline;
-  }
+.footer-list li a {
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #666;
+  padding: 5px;
+}
 
 .article-footer a:hover {
   text-decoration: none;
+}
+
+
+.sidebar-line2 a:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+.footer-list li a:hover {
+  text-decoration: underline;
 }
 
 .inflation {
@@ -555,11 +571,6 @@ strong {
   line-height: 1.375rem;
 }
 
-.sidebar-line2 a:hover {
-  text-decoration: none;
-  color: #666;
-}
-
 h2 {
   font-size: 1em;
   font-weight: 600;
@@ -658,10 +669,6 @@ ul {
   margin: 0;
 }
 
-.first a:hover {
-  text-decoration: underline;
-}
-
 .subscriptions {
   width: max-content;
 }
@@ -687,11 +694,8 @@ ul {
   margin: 3px;
 }
 
-.footer-list li a {
-  font-size: 0.9em;
-  font-weight: normal;
-  color: #666;
-  padding: 5px;
+.first a:hover {
+  text-decoration: underline;
 }
 
 .aside-footer {
