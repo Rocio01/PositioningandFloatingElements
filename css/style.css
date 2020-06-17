@@ -362,9 +362,25 @@ p {
   line-height: 1.8em;
 }
 
+.subscriptions a {
+  font-size: 1.2em;
+  font-weight: 800;
+  line-height: 1.4em;
+  position: relative;
+  top: -4px;
+  }
+
+.aplications-container a {
+  font-size: 11px;
+  }
+
 p > a:hover {
   text-decoration: underline;
 }
+
+.footer-list li a:hover {
+    text-decoration: underline;
+  }
 
 .article-footer a:hover {
   text-decoration: none;
@@ -654,14 +670,6 @@ ul {
   cursor: pointer;
 }
 
-.subscriptions a {
-  font-size: 1.2em;
-  font-weight: 800;
-  line-height: 1.4em;
-  position: relative;
-  top: -4px;
-}
-
 .email {
   margin-top: 5%;
 }
@@ -682,27 +690,19 @@ ul {
 .footer-list li a {
   font-size: 0.9em;
   font-weight: normal;
-  color: #666666;
+  color: #666;
   padding: 5px;
 }
 
-.footer-list li a:hover {
-  text-decoration: underline;
-}
-
 .aside-footer {
-  border-left: solid #666666 0.5px;
+  border-left: solid #666 0.5px;
   padding-left: 5%;
 }
 
 .aplications {
-  border-top: solid #666666 1px;
+  border-top: solid #666 1px;
   padding-top: 5%;
   margin-top: 10%;
-}
-
-.aplications-container a {
-  font-size: 11px;
 }
 
 @media only screen and (max-width: 990px) {
