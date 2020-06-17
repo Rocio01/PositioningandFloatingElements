@@ -87,7 +87,7 @@ video {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: inherit;
+  font-size: inherit;
   vertical-align: baseline;
 }
 
@@ -100,14 +100,14 @@ video {
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: #333333;
+  color: #333;
 }
 
 header {
   position: fixed;
   width: 100%;
   top: 0;
-  background: #ffffff;
+  background: #fff;
 }
 
 a {
@@ -162,6 +162,7 @@ a {
   transition: opacity 0.7s ease-in-out 0s;
   text-decoration: underline;
 }
+
 .Thanks {
   margin-left: 32%;
   font-size: 15px;
@@ -177,15 +178,16 @@ a {
   color: #326891;
   font-size: 15px;
 }
+
 .button {
   text-align: center;
   background-color: rgb(18, 18, 18);
-  color: #ffffff;
+  color: #fff;
   font-size: 1em;
   height: 32px;
   letter-spacing: 0.01em;
   text-transform: none;
-  border-color: 1px solid #000000;
+  border-color: 1px solid #000;
   border-radius: 3px;
   margin-right: 1px 0 0;
   padding: 5px 10px 5px 10px;
@@ -251,15 +253,11 @@ span {
 
 .author {
   margin: 20px 30% 20px 30%;
+  padding-left: 20px;
 }
 
 .author > a {
   font-size: 0.9em;
-}
-
-.social > p,
-.main-w > p {
-  font-size: 0.75em;
 }
 
 .social > a {
@@ -324,9 +322,14 @@ span {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.social > p,
+.main-w > p {
+  font-size: 0.75em;
+}
+
 p {
   display: block;
-  margin-inline-end: 0px;
+  margin-inline-end: 0;
 }
 
 .article > p,
@@ -349,6 +352,21 @@ p {
   text-decoration: underline;
 }
 
+.internal-link a {
+    font-size: 0.7em;
+    color: #666;
+  }
+
+.first a {
+    font-size: 1.15em;
+    font-weight: normal;
+    line-height: 1.8em;
+  }
+
+p > a:hover {
+    text-decoration: underline;
+  }
+
 .article-footer a:hover {
   text-decoration: none;
 }
@@ -364,9 +382,8 @@ p {
   line-height: 1.5rem;
   font-weight: 700;
   font-style: normal;
-  margin-bottom: 2px;
+  margin: 0 0 2px 0;
   color: #000;
-  margin: 0;
   display: block;
 }
 
@@ -393,6 +410,7 @@ p {
   width: 100%;
   margin-bottom: 15px;
 }
+
 .figcaption {
   color: rgb(105, 102, 102);
   font-family: georgia, "times new roman", times, serif;
@@ -418,12 +436,8 @@ p {
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
   margin: 0;
-}
-
-p > a:hover {
-  text-decoration: underline;
 }
 
 aside {
@@ -451,10 +465,6 @@ strong {
   background-color: #000;
 }
 
-.author {
-  padding-left: 20px;
-}
-
 .link-article {
   text-decoration: underline;
   color: #326891;
@@ -465,6 +475,8 @@ strong {
 .link-article:hover {
   text-decoration: none;
 }
+
+
 
 .social-footer {
   display: flex;
@@ -565,7 +577,7 @@ h2 {
 a > span {
   float: right;
   font-size: 10px;
-  color: #999999;
+  color: #999;
 }
 
 .move-up {
@@ -584,6 +596,7 @@ footer {
 .left-logo {
   float: left;
 }
+
 .left-logo img {
   width: 150px;
   cursor: pointer;
@@ -591,11 +604,6 @@ footer {
 
 .internal-link {
   float: right;
-}
-
-.internal-link a {
-  font-size: 0.7em;
-  color: #666666;
 }
 
 .footer-nav {
@@ -611,7 +619,7 @@ footer {
 h3 {
   font-size: 1.5em;
   font-weight: 700;
-  color: #333333;
+  color: #333;
 }
 
 ul {
@@ -634,12 +642,6 @@ ul {
   line-height: 15px;
   width: inherit;
   margin: 0;
-}
-
-.first a {
-  font-size: 1.15em;
-  font-weight: normal;
-  line-height: 1.8em;
 }
 
 .first a:hover {
