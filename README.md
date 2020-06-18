@@ -6,6 +6,16 @@
 
 Additional description about the project and its features.
 
+This project was designed to fulfill the following concepts:
+
+- Embedding images
+- Working with forms (buttons)
+- Floats and positioning
+- The box model
+- Grids
+- Flexbox
+
+
 ## Built With
 
 - HTML

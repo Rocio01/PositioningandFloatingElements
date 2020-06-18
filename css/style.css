@@ -1,5 +1,4 @@
-/* css reset
-html,
+css reset html,
 body,
 div,
 span,
@@ -94,7 +93,7 @@ video {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -611,13 +610,13 @@ a > span {
 }
 
 .group-links {
-    width: 90%;
-    height: auto;
-    margin: 0 auto;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .move-up {
-  margin-top: -260px;
+  margin-top: -130px;
 }
 
 .footer-line {
@@ -696,8 +695,8 @@ ul {
   display: flex;
   width: 90%;
   margin: 0 auto;
-  margin-top: 500px;
-  margin-bottom: 60px;
+  margin-top: 370px;
+  margin-bottom: 70px;
 }
 
 .footer-list li {
@@ -716,8 +715,8 @@ ul {
   align-items: center;
   background-color: #fff;
   border-top: 1px solid grey;
-  font-size: 15px; 
-  cursor: pointer;   
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .corona {
@@ -737,7 +736,6 @@ ul {
 .expand > img {
   margin-left: 30px;
 }
-
 
 .aside-footer {
   border-left: solid #666 0.5px;
