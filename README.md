@@ -21,9 +21,10 @@ This project was designed to fulfill the following concepts:
 - HTML
 - CSS,
 
-## Live Demo pending approval....
+## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/Rocio01/PositioningandFloatingElements/c5da83cabcb421721b515b29c995d6b71be64d1f/index.html)
+
 [Github Repository Link](https://github.com/Rocio01/PositioningandFloatingElements/tree/feature-branch)
 
 ## Getting Started
