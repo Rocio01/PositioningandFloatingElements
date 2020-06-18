@@ -319,7 +319,7 @@ span {
   margin: 20px 30% 20px 30%;
 }
 
-.article {
+.article-section {
   margin: 20px 30% 20px 30%;
   font-size: 1em;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -335,7 +335,7 @@ p {
   font-size: 0.75em;
 }
 
-.article > p,
+.article-section > p,
 .main-article > p {
   font-size: 21px;
   line-height: 1.875rem;
