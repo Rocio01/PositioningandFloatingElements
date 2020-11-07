@@ -54,7 +54,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@Rocio01](https://github.com/Rocio01)
 - Twitter: [@rugiada8801](https://twitter.com/rugiada8801)
-- Linkedin: [zulma-martinez-5247a31a8](https://www.linkedin.com/in/zulma-martinez-5247a31a8/)
+- Linkedin: [zulma-rocio-martinez](https://www.linkedin.com/in/zulma-rocio-martinez)
 
 👤 **Author2**
 
